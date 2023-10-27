@@ -1,0 +1,140 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  
+}
+
+.App{
+  background-image: url(./photo/galacticcore.jpg.webp);
+  height: 100vh;
+  width: 97.5%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  padding-right: 40px;
+  justify-content: space-between;
+  overflow: hidden;
+  padding-bottom: 20px;
+}
+
+.Right{
+  width: 75%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  column-gap: 40px;
+  row-gap: 5px;
+  
+}
+
+.Left{
+  width: 20%;
+
+  background-color: rgba(255, 255, 255, 0.09);
+}
+
+.grid-item{
+  display: inline;
+  border-radius: 20px;
+  margin-top: 40px;
+  background-color: rgba(255, 255, 255, 0.09);
+  padding:15px 0 ;
+  
+}
+
+.first{
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.second{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.third{
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.fourth{
+  grid-column-start: 1;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  overflow: scroll;
+}
+
+.fifth{
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  overflow: scroll;
+  text-align: center;
+  width: 300px;
+  height: 150px;
+}
+
+
+.fifth div{
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  color: white;
+}
+
+.Left h1{
+  line-height: 5;
+}
+
+.Left h2{
+  line-height: 2.5;
+}
+
+.Search{
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+#starter,#filtering{
+  background-color: grey;
+  margin: 10px;
+}
+
+.Tablee{
+  width: 100%;
+  height: 100%;
+  color: black !important;
+  
+}
+
+table{
+  height: 100%;
+}
+
+#searcher,#filter,#filterdate{
+  color: grey;
+}
+
+span{
+  padding-top: 20px;
+  color: red;
+}
+
+.Details h3{
+  text-align: left;
+  line-height: 7;
+}
